@@ -5,7 +5,7 @@ language_command =
 setcommands_command =
     .description = Set bot commands
 
-welcome = Welcome!
+welcome = Bienvenido!
 language = 
     .select = Please, select your language
     .changed = Language successfully changed!
