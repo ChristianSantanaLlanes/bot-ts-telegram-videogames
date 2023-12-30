@@ -9,7 +9,10 @@ import {
 } from "#root/bot/context.js";
 import {
   adminFeature,
+  helpFeature,
+  infoFeature,
   languageFeature,
+  searchFeature,
   unhandledFeature,
   welcomeFeature,
 } from "#root/bot/features/index.js";
@@ -52,6 +55,9 @@ export function createBot(token: string, options: Options = {}) {
 
   // Handlers
   protectedBot.use(welcomeFeature);
+  protectedBot.use(infoFeature)
+  protectedBot.use(helpFeature)
+  protectedBot.use(searchFeature)
   protectedBot.use(adminFeature);
 
   if (isMultipleLocales) {
