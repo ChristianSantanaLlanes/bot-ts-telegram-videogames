@@ -20,5 +20,5 @@
   "include": [
     "api/**/*",
     "src/**/*",
-    "scripts/**/*", "models"  ],
+    "scripts/**/*"  ],
 }
