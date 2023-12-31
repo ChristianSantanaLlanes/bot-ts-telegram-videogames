@@ -1,7 +1,7 @@
 import { InlineKeyboard } from "grammy";
 import { Context } from "../context.js";
 import { chunk } from "../helpers/keyboard.js";
-import { Game } from "../models/Game.js";
+import { Game } from "../models/game.js";
 
 export const createKeyboardGames = (ctx:Context, games:Game[]) => {
     return InlineKeyboard.from(

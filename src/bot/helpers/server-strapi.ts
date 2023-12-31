@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import axios from "axios";
-import { Game } from "../models/Game.js";
+import { Game } from "../models/game.js";
 
 const url = 'https://strapi-production-2d60.up.railway.app/api/'
 
