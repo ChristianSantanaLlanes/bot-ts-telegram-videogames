@@ -2,7 +2,7 @@
 import { Menu } from "@grammyjs/menu";
 import { getGamebyName } from "../helpers/server-strapi.js";
 import { Context } from "../context.js";
-import { Datum, Game } from "../models/game.js";
+import { Datum, Game } from "../../../models/game.js";
 import { gameMenu } from "./game-menu.js";
 
 export const gamesListMenu = new Menu<Context>("games-list-menu", { onMenuOutdated: false })
