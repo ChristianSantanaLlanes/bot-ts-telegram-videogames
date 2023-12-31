@@ -3,7 +3,7 @@ start_command =
 language_command = 
     .description = Cambiar idioma
 setcommands_command =
-    .description = Establecer comandos del bot
+    .description = Establecer comandos del botconversation
 language = 
     .select = Por favor, selecciona tu idioma
     .changed = ¡Idioma cambiado con éxito!
@@ -33,3 +33,18 @@ info =
     Version del Bot: 1.0.0
 
 help = Este es el mensaje de ayuda
+buscar = 
+    .buscar_texto = Escriba el nombre del juego a buscar. Puede cancelar la busqueda enviando el comando /cancel
+    .cancel_buscar = Busqueda cancelada
+    .juegos_encontrados = Aqui todos los juegos encontrados con ese nombre
+
+game_text =
+    🔹Nombre: {$name}
+
+    🔹Descripción: {$description}
+
+    ▫️Género: {$genero}
+    ▫️Características: {$caracteristica}
+    ▫️Vista: {$vista}
+    ▫️Desarrollador: {$desarrollador}
+    ▫️ Plataformas: {$plataforma}

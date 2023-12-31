@@ -5,3 +5,4 @@ export * from "./welcome.js";
 export * from './help.js'
 export * from './info.js'
 export * from './search.js'
+export * from './back-game.js'
